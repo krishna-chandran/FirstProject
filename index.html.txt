@@ -1,0 +1,7 @@
+I am writing first line today.
+
+I am adding good code here outside master.
+
+commit these changes.
+
+testing.
