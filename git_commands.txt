@@ -13,3 +13,9 @@
 5. tagging/Release
 	git tag -a <version> -m "<Release message>"
 	git push <projectName> tag "<Release message>"
+6. To revert back to previous commit as master and push to github by preserving all the commits
+        git log (to get desired commit hash)
+	git checkout <commit hash> -- * (revert this commit with all deleted files as well)
+	git add *
+	git commit
+	git push --set-upstream <projectName> master
